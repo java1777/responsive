@@ -1,0 +1,311 @@
+/* header responsive */
+
+@media (max-width: 960px) {
+  .header_links {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_right a {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .header_right img {
+    display: none;
+  }
+}
+
+/* responsive design */
+
+@media (max-width: 1250px) {
+  .choose_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .choose_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 590px) {
+  .choose_btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .choose_title p {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    max-width: 357px;
+    width: 100%;
+    height: 433px;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #272727;
+    border-radius: 16px;
+  }
+}
+
+/* Unparalled */
+@media (max-width: 1024px) {
+  .unparalleled {
+    padding: 60px 0;
+  }
+
+  .unparalleled__title {
+    font-size: 32px;
+  }
+
+  .unparalleled__cards {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .unparalleled {
+    padding: 50px 0;
+  }
+
+  .unparalleled__desc {
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+
+  .unparalleled__title {
+    font-size: 28px;
+  }
+
+  .unparalleled__text {
+    font-size: 15px;
+  }
+
+  .unparalleled__card {
+    padding: 30px;
+  }
+
+  .unparalleled__card-title {
+    font-size: 20px;
+  }
+
+  .unparalleled__card-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .unparalleled__card-icon img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .unparalleled {
+    padding: 40px 0;
+  }
+
+  .unparalleled__title {
+    font-size: 24px;
+  }
+
+  .unparalleled__card {
+    padding: 24px;
+  }
+
+  .unparalleled__card-header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .unparalleled__card-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .unparalleled__card-icon img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .unparalleled__card-title {
+    font-size: 18px;
+  }
+
+  .unparalleled__card-text {
+    font-size: 14px;
+  }
+}
+
+/* Safe */
+@media (max-width: 1200px) {
+  .safe {
+    max-width: 1000px;
+  }
+
+  .box__safe {
+    gap: 40px;
+  }
+
+  .safe__img {
+    width: 320px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .safe {
+    padding: 30px;
+  }
+
+  .box__safe {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .safe__left,
+  .safe__right {
+    max-width: 100%;
+  }
+
+  .safe__img {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .safe {
+    padding: 24px;
+    margin: 60px auto;
+  }
+
+  .safe__title {
+    font-size: 28px;
+  }
+
+  .safe__text {
+    font-size: 15px;
+  }
+
+  .safe__cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .safe__card {
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .safe__img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .safe {
+    padding: 20px;
+    margin: 40px auto;
+  }
+
+  .safe__title {
+    font-size: 24px;
+  }
+
+  .safe__text {
+    font-size: 14px;
+  }
+
+  .safe__card {
+    padding: 14px;
+  }
+
+  .safe__card img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .safe__card_text {
+    font-size: 14px;
+  }
+
+  .safe__img {
+    height: 300px;
+  }
+
+  .safe__square {
+    width: 150px;
+    height: 150px;
+    top: -15px;
+    right: -15px;
+  }
+}
+
+/* Footer */
+@media (max-width: 992px) {
+  .footer__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__menu {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 80px;
+  }
+
+  .footer__up {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 40px 16px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer__contact {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer__up {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer__socials img {
+    width: 26px;
+    height: 26px;
+  }
+}
