@@ -1,11 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <a href="#" class="header__logo">
+          <img src="./assets/icon/logo.svg" alt="logo" />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li><a href="#" class="header__link">ALL PRODUCTS</a></li>
+            <li><a href="#" class="header__link">ABOUT SEEDRA</a></li>
+            <li><a href="#" class="header__link">OUR BLOG</a></li>
+            <li><a href="#" class="header__link">CONTACTS</a></li>
+          </ul>
+
+          <div class="header__social">
+            <img src="./assets/icon/instagram.svg" alt="instagram" />
+            <img src="./assets/icon/facebook.svg" alt="facebook" />
+          </div>
+
+          <div class="search-box">
+            <img
+              src="./assets/icon/search.svg"
+              alt="Search Icon"
+              class="search-icon"
+            />
+            <input type="text" placeholder="Search" />
+          </div>
+          <a href="#" class="header__card_icon">
+            <img src="./assets/icon/heard.svg" alt="heard" />
+            <img src="./assets/icon/korzina.svg" alt="basket" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="hero">
+        <div class="hero__left">
+          <h1 class="hero__title">
+            SEEDRA Basil Seeds for Indoor and Outdoor Planting
+          </h1>
+          <p class="hero__text">
+            Be sure of our quality - the freshest batches of this season.
+            Non-GMO, Heirloom - our seeds were tested and have the best
+            germination ratings. Your easy growing experience is our guarantee
+          </p>
+          <div class="hero__footer">
+            <div class="hero__money">
+              <a href="#" class="hero__fire">
+                <img src="./assets/icon/fire.svg" alt="fire" />
+              </a>
+              <p class="hero__sale">$12.56</p>
+              <p class="hero__price">$15.56</p>
+            </div>
+            <div class="btn">
+              <button class="hero__btn_green">Add to card</button>
+              <button class="hero__btn_white">Discover</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <a href="#" class="hero__img">
+            <img
+              src="./assets/img/hero-img.png"
+              alt="SEEDRA"
+              class="hero__main_img"
+            />
+            <img
+              src="./assets/img/hero-leafs.png"
+              alt="leafs"
+              class="hero__bg_img"
+            />
+            <img
+              src="./assets/img/fresh-sweet-basil-leaves-isolated-white-background 3.png"
+              alt=""
+              class="fresh"
+            />
+            <img
+              src="./assets/img/fresh-sweet-basil-leaves-isolated-white-background 2.png"
+              alt=""
+              class="fresh__leaves"
+            />
+            <img
+              src="./assets/img/fresh-sweet-basil-leaves-isolated-white-background 4.png"
+              alt=""
+              class="fresh__leaves_top"
+            />
+            <img
+              src="./assets/img/fresh-sweet-basil-leaves-isolated-white-background 1.png"
+              alt=""
+              class="fresh__leaves_top_right"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section class="sell">
+        <div class="sell__content">
+          <h2 class="sell__title">We sell seeds</h2>
+          <p class="sell__text">
+            that always sprout and gardening supplies which never break
+          </p>
+          <img src="./assets/img/yellow.png" alt="" class="yellow" />
+          <img src="./assets/img/seed.png" alt="" class="seed" />
+          <img src="./assets/img/semi-leaf.png" alt="" class="semi_leaf" />
+          <img src="./assets/img/part_leaf.png" alt="" class="part_leaf" />
+          <img src="./assets/img/seed-leaf.png" alt="" class="seed_leaf" />
+          <img src="./assets/img/yellow-seed.png" alt="" class="yellow_seed" />
+          <img src="./assets/img/seed-blur.png" alt="" class="seed_blur" />
+          <img src="./assets/img/seed-orange.png" alt="" class="orange" />
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <div class="products__wrap">
+            <div class="products__header">
+              <h2 class="products__title">Our products.</h2>
+              <a href="#" class="products__view-all">View all (12)</a>
+            </div>
+
+            <div class="products__categories">
+              <button class="category-btn active">
+                <span class="category-icon">
+                  <img src="./assets/icon/product-leaf.svg" alt="leaf" />
+                </span>
+                <span class="category-text">ALL</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/bundles.svg" alt="bundles" />
+                </span>
+                <span class="category-text">BUNDLES</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/herbs.svg" alt="herbs" />
+                </span>
+                <span class="category-text">HERBS</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/vegetables.svg" alt="vegetables" />
+                </span>
+                <span class="category-text">VEGETABLES</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/fruits.svg" alt="fruits" />
+                </span>
+                <span class="category-text">FRUITS</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/supplies.svg" alt="supplies" />
+                </span>
+                <span class="category-text">SUPPLIES</span>
+              </button>
+
+              <button class="category-btn">
+                <span class="category-icon">
+                  <img src="./assets/icon/flower.svg" alt="flower" />
+                </span>
+                <span class="category-text">FLOWERS</span>
+              </button>
+            </div>
+
+            <div class="products__grid">
+              <article class="product__card">
+                <button class="product__favorite">
+                  <img src="./assets/icon/like.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-1.png" alt="Seedra Cilantro" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    Seedra Cilantro Seeds for Planting Indoor and Outdoor
+                  </h3>
+                  <div class="product__footer">
+                    <span class="product__price">$12.56</span>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="product__card">
+                <button class="product__favorite active">
+                  <img src="./assets/icon/like.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-2.png" alt="SEEDRA Corn" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor
+                    Planting
+                  </h3>
+                  <div class="product__footer">
+                    <div class="product__price-group">
+                      <span class="product__price">$12.56</span>
+                      <span class="product__price-old">$15.56</span>
+                    </div>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="product__card">
+                <button class="product__favorite">
+                  <img src="./assets/icon/like.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-3.png" alt="SEEDRA Spinach" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    SEEDRA Spinach Seeds for Indoor and Outdoor Planting
+                  </h3>
+                  <div class="product__footer">
+                    <span class="product__price">$12.56</span>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="product__card">
+                <button class="product__favorite">
+                  <img src="./assets/icon/like.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-1.png" alt="Seedra Cilantro" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    Seedra Cilantro Seeds for Planting Indoor and Outdoor
+                  </h3>
+                  <div class="product__footer">
+                    <span class="product__price">$12.56</span>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="product__card">
+                <button class="product__favorite active">
+                  <img src="./assets/icon/favourite.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-2.png" alt="SEEDRA Corn" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor
+                    Planting
+                  </h3>
+                  <div class="product__footer">
+                    <div class="product__price-group">
+                      <span class="product__sale-icon">
+                        <img src="./assets/icon/fire.svg" alt="fire" />
+                      </span>
+                      <span class="product__price">$12.56</span>
+                      <span class="product__price-old">$15.56</span>
+                    </div>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <article class="product__card">
+                <button class="product__favorite">
+                  <img src="./assets/icon/like.svg" alt="" />
+                </button>
+                <div class="product__image">
+                  <img src="./assets/img/card-3.png" alt="SEEDRA Spinach" />
+                </div>
+                <div class="product__content">
+                  <div class="product__rating">
+                    <div class="stars">
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/star.svg" alt="" />
+                      <img src="./assets/icon/semi-star.svg" alt="" />
+                    </div>
+                    <span class="rating-count">(123)</span>
+                  </div>
+                  <h3 class="product__title">
+                    SEEDRA Spinach Seeds for Indoor and Outdoor Planting
+                  </h3>
+                  <div class="product__footer">
+                    <span class="product__price">$12.56</span>
+                    <button class="product__cart">
+                      <img src="./assets/icon/kalyaska.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="container">
+          <h2 class="clients__title">What our clients say</h2>
+
+          <div class="clients__slider">
+            <article class="clients-card clients-card--left">
+              <div class="clients-card__header">
+                <img
+                  src="./assets/icon/ava 5.svg"
+                  alt="Carla Samantoes-Diego"
+                  class="clients-card__avatar"
+                />
+                <div class="clients-card__info">
+                  <h3 class="clients-card__name">Carla Samantoes-Diego</h3>
+                  <p class="clients-card__date">12.09.2021</p>
+                </div>
+              </div>
+              <div class="clients-card__rating">
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/semi-star.svg" alt=""
+                /></span>
+              </div>
+              <p class="clients-card__text">
+                SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
+                professional instructions created by PhD Helga Gorge. Be sure of
+                our quality - the freshest batches of this season. Non-GMO,
+                Heirloom - our seeds were tested and have the best germination
+                ratings.
+              </p>
+            </article>
+
+            <article class="clients-card clients-card--center">
+              <div class="clients-card__header">
+                <img
+                  src="./assets/icon/ava 5.svg"
+                  alt="Carla Samantoes-Diego"
+                  class="clients-card__avatar"
+                />
+                <div class="clients-card__info">
+                  <h3 class="clients-card__name">Carla Samantoes-Diego</h3>
+                  <p class="clients-card__date">12.09.2021</p>
+                </div>
+              </div>
+              <div class="clients-card__rating">
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/semi-star.svg" alt=""
+                /></span>
+              </div>
+              <p class="clients-card__text">
+                SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
+                professional instructions created by PhD Helga Gorge. Be sure of
+                our quality - the freshest batches of this season. Non-GMO,
+                Heirloom - our seeds were tested and have the best germination
+                ratings.
+              </p>
+            </article>
+
+            <article class="clients-card clients-card--right">
+              <div class="clients-card__header">
+                <img
+                  src="./assets/icon/ava 5.svg"
+                  alt="Carla Samantoes-Diego"
+                  class="testimonial-card__avatar"
+                />
+                <div class="clients-card__info">
+                  <h3 class="clients-card__name">Carla Samantoes-Diego</h3>
+                  <p class="clients-card__date">12.09.2021</p>
+                </div>
+              </div>
+              <div class="clients-card__rating">
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/star.svg" alt=""
+                /></span>
+                <span class="star"
+                  ><img src="./assets/icon/semi-star.svg" alt=""
+                /></span>
+              </div>
+              <p class="clients-card__text">
+                SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
+                professional instructions created by PhD Helga Gorge. Be sure of
+                our quality - the freshest batches of this season. Non-GMO,
+                Heirloom - our seeds were tested and have the best germination
+                ratings.
+              </p>
+            </article>
+          </div>
+          <div class="clients__dots">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="seedra-info">
+        <div class="container">
+          <div class="seedra-info__content">
+            <h2 class="seedra-info__title">
+              Seedra helps to grow fast and efficient
+            </h2>
+            <p class="seedra-info__text">
+              SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
+              professional instructions created by PhD Helga Gorge.
+            </p>
+            <p class="seedra-info__text">
+              Be sure of our quality - the freshest batches of this season.
+              Non-GMO, Heirloom - our seeds were tested and have the best
+              germination ratings.
+            </p>
+            <p class="seedra-info__text">
+              Your easy growing experience is our guarantee. Spinach common
+              culinary uses: salads, soups, smoothies, lasagne, pizza, pies,
+              risotto, and more.
+            </p>
+            <p class="seedra-info__highlight">
+              Proudly sourced in the USA - our garden seeds are grown,
+              harvested, and packaged in the USA. We support local farmers and
+              are happy to produce this American-made product.
+            </p>
+          </div>
+          <div class="seedra-info__image">
+            <img src="./assets/img/seedra.png" alt="Woman with vegetables" />
+            <img src="./assets/icon/circle.svg" alt="" class="circle" />
+            <img
+              src="./assets/img/leaf__top-right.png"
+              alt=""
+              class="leaf__top-right"
+            />
+            <img
+              src="./assets/img/seedra__leaf.png"
+              alt=""
+              class="seedra__leaf"
+            />
+            <img
+              src="./assets/img/seedra__leaf-left-bottom.png"
+              alt=""
+              class="seedra__leaf-left-bottom"
+            />
+          </div>
+        </div>
+      </section>
+
+      
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <nav class="footer__nav">
+              <a href="#" class="footer__link">ALL PRODUCTS</a>
+              <a href="#" class="footer__link">ABOUT SEEDRA</a>
+              <a href="#" class="footer__link">OUR BLOG</a>
+            </nav>
+
+            <div class="footer__logo">
+              <img src="./assets/icon/logo.svg" alt="SEEDRA" />
+            </div>
+
+            <nav class="footer__nav">
+              <a href="#" class="footer__link">Terms&Conditions</a>
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </nav>
+          </div>
+
+          <div class="footer__bottom">
+            <div class="footer__social">
+              <a href="#" aria-label="Instagram">
+                <img src="./assets/icon/footer-instagram.svg" alt="" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <img src="./assets/icon/footer-facebook.svg" alt="" />
+              </a>
+            </div>
+            <p class="footer__copyright">All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
