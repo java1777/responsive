@@ -1,0 +1,23 @@
+{
+  "liveServer.settings.port": 5500,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Sass kompilyatsiyasi uchun sozlamalar
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+
+  // Sass fayl yo‘llarini soddalashtirish
+  "scss.validate": true,
+  "css.validate": true,
+  "sass.includePaths": ["assets/style"]
+}
