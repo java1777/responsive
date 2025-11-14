@@ -9,108 +9,206 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__wrapper">
+        <div class="header__wrap">
           <a href="#" class="header__logo">
-            <img src="./assets/icon/logo.svg" alt="Coffee" />
-            <span>Coffee</span>
+            <img src="./assets/icon/Logo.svg" alt="Logo" />
           </a>
 
-          <!-- Navigation -->
           <nav class="header__nav">
-            <ul class="header__list">
-              <li><a href="#" class="header__link active">Home</a></li>
-              <li><a href="#" class="header__link">About Us</a></li>
-              <li><a href="#" class="header__link">Menu</a></li>
-              <li><a href="#" class="header__link">Review</a></li>
-              <li><a href="#" class="header__link">Contact</a></li>
+            <ul class="header__nav--list">
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Home</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Services</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Projects</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">About Us</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Contact Us</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Careers</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Blogs</a>
+              </li>
             </ul>
           </nav>
-
-          <!-- Actions -->
-          <div class="header__actions">
-            <button class="header__search" aria-label="Search">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <circle
-                  cx="9"
-                  cy="9"
-                  r="7"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-                <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" />
-              </svg>
-            </button>
-            <a href="#" class="header__cart">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M8 20C8 21.1046 7.10457 22 6 22C4.89543 22 4 21.1046 4 20C4 18.8954 4.89543 18 6 18C7.10457 18 8 18.8954 8 20Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M20 20C20 21.1046 19.1046 22 18 22C16.8954 22 16 21.1046 16 20C16 18.8954 16.8954 18 18 18C19.1046 18 20 18.8954 20 20Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M2.05005 2.05005L4 2L6 13H18L20 6H6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-              </svg>
-              <span class="header__cart-badge">2</span>
-            </a>
-          </div>
         </div>
       </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <div class="hero__wrapper">
-          <!-- Content -->
-          <div class="hero__content">
+        <div class="hero__wrap">
+          <div class="hero__subcontainer--left">
             <h1 class="hero__title">
-              Keep your dreams aroused with a cup of coffee.
+              Digital Solutions <span>That Drive Success</span>
             </h1>
             <p class="hero__text">
-              The coffee ideas shared by these generators are not cool at all,
-              as they are not a human being.
+              At DigitX, we believe in the transformative power of digital
+              solutions. Our team of experts is dedicated to helping businesses
+              like yours thrive in the fast-paced digital landscape. From
+              captivating web design to data-driven marketing strategies, we are
+              committed to delivering results that exceed expectations.
             </p>
-            <button class="hero__btn">Buy Now</button>
+            <div class="hero__footer">
+              <p class="hero__desc">Unlock Your Digital Potential Today</p>
+              <span class="hero__btn">
+                <button class="hero__btn--white">Get Started</button>
+                <button class="hero__btn--black">Free Consultation</button>
+              </span>
+            </div>
           </div>
 
-          <!-- Image (rasmni o'zingiz qo'yasiz) -->
-          <div class="hero__image">
+          <div class="hero__subcontainer--right">
             <img
-              src="./assets/img/coffee-splash.png"
-              alt="Coffee splash"
-              class="hero__img-main"
-            />
-            <img
-              src="./assets/img/coffee-beans.png"
-              alt="Coffee beans"
-              class="hero__beans"
+              src="./assets/img/hero--img.png"
+              alt=""
+              class="hero__img--right"
             />
           </div>
         </div>
       </div>
     </section>
 
-    <main>
-      <section class="offer">
-        <div class="container">
-          <div class="offer__block">
-            <div class="offer__content">
-              <h2 class="offer__title">That is Our Best Offer</h2>
-              <p class="offer__text">
-                A coffee shop will help you to tell the audience what your
-                business.
+    <section class="choose">
+      <div class="container">
+        <div class="choose__wrap">
+          <h2 class="choose__title">
+            Reasons to Choose DigitX for <br />
+            <span>Your Digital Journey</span>
+          </h2>
+          <p class="choose__text">
+            Partnering with DigitX offers a multitude of advantages. Experience
+            increased brand visibility, improved customer engagement, and higher
+            ROI. Our tailored solutions are designed to meet your unique
+            business needs, ensuring lasting success.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="cards__container">
+            <div class="cards__card">
+              <img src="./assets/icon/card-ion1.svg" alt="Icon" />
+              <h3 class="cards__card-title">Expertise That Drives Results</h3>
+              <p class="cards__card-text">
+                Our team of seasoned professionals brings years of experience
+                and expertise to the table.
               </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="cards__card">
+              <img src="./assets/icon/card-icon2.svg" alt="Icon" />
+              <h3 class="cards__card-title">Tailored Business Solutions</h3>
+              <p class="cards__card-text">
+                We understand that every business is unique. That's why our
+                solutions are customized.
+              </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="cards__card">
+              <img src="./assets/icon/card-icon3.svg" alt="Icon" />
+              <h3 class="cards__card-title">Cutting-Edge Web Design</h3>
+              <p class="cards__card-text">
+                Leave a lasting impression on your audience with our top-notch
+                web design services.
+              </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="cards__card">
+              <img src="./assets/icon/card-icon4.svg" alt="Icon" />
+              <h3 class="cards__card-title">Mobile-First Approach</h3>
+              <p class="cards__card-text">
+                In today's mobile-centric world, we prioritize mobile-first
+                design to ensure your website.
+              </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="cards__card">
+              <img src="./assets/icon/card-icon5.svg" alt="Icon" />
+              <h3 class="cards__card-title">Marketing Strategies</h3>
+              <p class="cards__card-text">
+                Our data-driven marketing strategies allow us to target the
+                right audience with precision
+              </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="cards__card">
+              <img src="./assets/icon/card-icon6.svg" alt="Icon" />
+              <h3 class="cards__card-title">Search Engine Optimization</h3>
+              <p class="cards__card-text">
+                (SEO) Mastery Boost your online visibility with our expert SEO
+                techniques.
+              </p>
+              <button class="cards__card-btn">
+                Learn More
+                <img src="./assets/icon/arrow-right.svg" alt="Arrow" />
+              </button>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="services__title">Our <span>Services</span></h2>
+        <p class="services__text">
+          Our comprehensive range of services includes web design, mobile app
+          development, SEO, social media marketing, and more. Whether you're a
+          startup or an established enterprise, our experts will craft solutions
+          that drive results.
+        </p>
+
+        <div class="services__cards">
+          <div class="services__cards-container">
+            <div class="services__card">
+              <img
+                src="./assets/icon/services-card1.svg"
+                alt="services-card1"
+              />
+              <h3 class="services__card-title">Web Development</h3>
+              <p class="services__card-text">
+                Unlock Your Online Potential In today's digital age, a powerful
+                web presence is essential for any business. At DigitX, our web
+                development services empower you to stand out in the crowded
+                online landscape. We create responsive and dynamic websites
+                tailored to your unique needs, ensuring seamless user
+                experiences across all devices. From e-commerce platforms to
+                interactive web applications, our expert developers bring your
+                vision to life, making your online journey a resounding success.
+              </p>
+              <button class="services__btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
